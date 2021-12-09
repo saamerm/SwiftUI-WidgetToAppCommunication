@@ -42,9 +42,12 @@ struct SimpleEntry: TimelineEntry {
 
 struct StairWidgetEntryView : View {
     var entry: Provider.Entry
-
+    var x = true;
     var body: some View {
-        Text(entry.date, style: .time)
+        VStack{
+            Text("You are")
+            Text(["great", "awesome", "amazing", "the best"].randomElement()!)
+        }
     }
 }
 
@@ -56,6 +59,7 @@ struct StairWidget: Widget {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             StairWidgetEntryView(entry: entry)
         }
+        .supportedFamilies([.systemMedium])
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
     }

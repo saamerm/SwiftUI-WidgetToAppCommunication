@@ -45,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7665F9952761D47500D88BB0 /* StairWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StairWidgetExtension.entitlements; sourceTree = "<group>"; };
+		7665F9962761D49600D88BB0 /* StairClimber.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StairClimber.entitlements; sourceTree = "<group>"; };
 		76814AD627600E2C004AF2DE /* StairClimber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StairClimber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76814AD927600E2C004AF2DE /* StairClimberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StairClimberApp.swift; sourceTree = "<group>"; };
 		76814ADB27600E2C004AF2DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		76814ACD27600E2C004AF2DE = {
 			isa = PBXGroup;
 			children = (
+				7665F9952761D47500D88BB0 /* StairWidgetExtension.entitlements */,
 				76814AD827600E2C004AF2DE /* StairClimber */,
 				76814AF127600E40004AF2DE /* StairWidget */,
 				76814AEC27600E40004AF2DE /* Frameworks */,
@@ -101,6 +104,7 @@
 		76814AD827600E2C004AF2DE /* StairClimber */ = {
 			isa = PBXGroup;
 			children = (
+				7665F9962761D49600D88BB0 /* StairClimber.entitlements */,
 				76814AD927600E2C004AF2DE /* StairClimberApp.swift */,
 				76814ADB27600E2C004AF2DE /* ContentView.swift */,
 				76814ADD27600E2D004AF2DE /* Assets.xcassets */,
@@ -386,6 +390,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StairClimber/StairClimber.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StairClimber/Preview Content\"";
@@ -403,7 +408,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.StairClimber;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StairClimber;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,6 +421,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StairClimber/StairClimber.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StairClimber/Preview Content\"";
@@ -433,7 +439,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.StairClimber;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StairClimber;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StairWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RB9MZ6N697;
@@ -472,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StairWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RB9MZ6N697;
